@@ -25,6 +25,7 @@ function LiveBadge({
 
   return (
     <span
+      role="status"
       className="inline-flex h-6 items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-2 text-[11px] font-medium text-white/90 max-sm:border-transparent max-sm:bg-transparent max-sm:px-0"
       title={`Realtime status: ${label}`}
       aria-label={`Realtime status: ${label}`}
@@ -68,8 +69,8 @@ export function TopBar({
       <div className="mx-auto flex h-[46px] w-full max-w-[980px] items-center gap-2 px-3 sm:gap-3">
         <Link
           href="/"
+          title="My Wall home"
           className="shrink-0 rounded-[2px] text-[19px] font-bold leading-none tracking-[-0.04em] text-white outline-none focus-visible:ring-2 focus-visible:ring-white/70 sm:text-[22px]"
-          aria-label="My Wall home"
         >
           facebook
         </Link>
