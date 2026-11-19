@@ -7,7 +7,7 @@ appears for everyone in real time — no refresh needed.
 
 ## Live demo
 
-- Production: _added after deployment_
+- Production: https://fbmy-wall.vercel.app/
 - Repository: https://github.com/zinfotech1996-ui/fbmy-wall
 
 ## Screenshots
